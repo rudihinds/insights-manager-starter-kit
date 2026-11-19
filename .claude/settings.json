@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run scripts/*)",
+      "Bash(uvx yt-dlp *)",
+      "Read(./**)",
+      "Write(./**)",
+      "Edit(./**)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./data/.salt)",
+      "Read(./phase0/**)",
+      "Edit(./.env)",
+      "Edit(./.claude/**)",
+      "Write(./.claude/**)",
+      "Edit(./CLAUDE.md)",
+      "Write(./CLAUDE.md)",
+      "Edit(./data/raw/**)",
+      "Write(./data/raw/**)",
+      "Edit(./scripts/**)",
+      "Write(./scripts/**)",
+      "WebFetch",
+      "WebSearch"
+    ]
+  }
+}

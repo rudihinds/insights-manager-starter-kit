@@ -1,0 +1,12 @@
+.env
+data/
+samples/
+batches/
+labels/
+coded/
+readers/
+agreement/
+hooks/
+packs/
+*.parquet
+__pycache__/
